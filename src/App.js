@@ -1,27 +1,16 @@
 import React from "react";
+
+import characters from "./helper";
+
 import Page from "./Page";
 
-import antManImg from "./imgs/antman.png";
 
 const App = () => {
   return (
     <div className="App">
-      <Page
-        name={() => (
-          <>
-            The
-            <br />
-            Antman
-          </>
-        )}
-        years={() => (
-          <>
-            2015 -<br />
-            Present
-          </>
-        )}
-        imgSrc={antManImg}
-      />
+      {characters.map((c) => (
+        <Page {...c} />
+      ))}
     </div>
   );
 };
