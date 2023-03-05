@@ -1,10 +1,10 @@
 import React from "react";
+import "./Page.css";
 
-const Page = ({ imgSrc, name, years }) => {
-  console.log(imgSrc);
+const Page = ({ imgSrc, name, years, styles, alt }) => {
   return (
-    <div className="Page">
-      <img src={imgSrc} alt="Avenger" />
+    <div className="Page" style={styles}>
+      <img src={imgSrc} alt={alt} />
       <div id="Page-bottom">
         <span>{name()}</span>
         <span>{years()}</span>

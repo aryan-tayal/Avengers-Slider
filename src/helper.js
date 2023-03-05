@@ -21,6 +21,7 @@ const characters = [
         Stephen Strange
       </>
     ),
+    alt: "Dr. Strange",
     years: () => (
       <>
         2016 -<br />
@@ -38,9 +39,10 @@ const characters = [
       <>
         The
         <br />
-        Iron Man
+        Ironman
       </>
     ),
+    alt: "Ironman",
     years: () => (
       <>
         2008 -<br />
@@ -61,6 +63,7 @@ const characters = [
         The Son of Odin
       </>
     ),
+    alt: "Thor",
     years: () => (
       <>
         2011 -<br />
@@ -81,6 +84,7 @@ const characters = [
         Captain America
       </>
     ),
+    alt: "Captain America",
     years: () => (
       <>
         2011 -<br />
@@ -101,6 +105,7 @@ const characters = [
         Deadpool
       </>
     ),
+    alt: "Deadpool",
     years: () => (
       <>
         2016 -<br />
@@ -121,6 +126,7 @@ const characters = [
         Spiderman
       </>
     ),
+    alt: "Spiderman",
     years: () => (
       <>
         2017 -<br />
@@ -128,6 +134,27 @@ const characters = [
       </>
     ),
     imgSrc: spidermanImg,
+  },
+  {
+    styles: {
+      backgroundColor: "#FF5050",
+      zIndex: "1",
+    },
+    name: () => (
+      <>
+        The
+        <br />
+        Star Lord
+      </>
+    ),
+    alt: "Star Lord",
+    years: () => (
+      <>
+        2014 -<br />
+        Present
+      </>
+    ),
+    imgSrc: starLordImg,
   },
   {
     styles: {
@@ -141,6 +168,7 @@ const characters = [
         Black Widow
       </>
     ),
+    alt: "Black Widow",
     years: () => (
       <>
         2010 -<br />
@@ -161,6 +189,7 @@ const characters = [
         Antman
       </>
     ),
+    alt: "Antman",
     years: () => (
       <>
         2015 -<br />
@@ -168,26 +197,6 @@ const characters = [
       </>
     ),
     imgSrc: antmanImg,
-  },
-  {
-    styles: {
-      backgroundColor: "#FF5050",
-      zIndex: "1",
-    },
-    name: () => (
-      <>
-        The
-        <br />
-        Star Lord
-      </>
-    ),
-    years: () => (
-      <>
-        2014 -<br />
-        Present
-      </>
-    ),
-    imgSrc: starLordImg,
   },
 ];
 
