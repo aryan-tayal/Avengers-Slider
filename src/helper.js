@@ -11,8 +11,8 @@ import thorImg from "./imgs/thor.png";
 const characters = [
   {
     styles: {
-      backgroundColor: "#FFC100",
-      zIndex: "8",
+      backgroundColor: "#357250",
+      zIndex: "9",
     },
     name: () => (
       <>
@@ -33,7 +33,7 @@ const characters = [
   {
     styles: {
       backgroundColor: "#F44746",
-      zIndex: "7",
+      zIndex: "8",
     },
     name: () => (
       <>
@@ -53,8 +53,8 @@ const characters = [
   },
   {
     styles: {
-      backgroundColor: "#F1C507",
-      zIndex: "6",
+      backgroundColor: "#3D5F7B",
+      zIndex: "7",
     },
     name: () => (
       <>
@@ -75,7 +75,7 @@ const characters = [
   {
     styles: {
       backgroundColor: "#23A4D1",
-      zIndex: "5",
+      zIndex: "6",
     },
     name: () => (
       <>
@@ -96,7 +96,7 @@ const characters = [
   {
     styles: {
       backgroundColor: "#FF5050",
-      zIndex: "4",
+      zIndex: "5",
     },
     name: () => (
       <>
@@ -117,7 +117,7 @@ const characters = [
   {
     styles: {
       backgroundColor: "#23A4D1",
-      zIndex: "3",
+      zIndex: "4",
     },
     name: () => (
       <>
@@ -138,7 +138,7 @@ const characters = [
   {
     styles: {
       backgroundColor: "#FF5050",
-      zIndex: "1",
+      zIndex: "3",
     },
     name: () => (
       <>
@@ -179,7 +179,7 @@ const characters = [
   },
   {
     styles: {
-      backgroundColor: "#FF5050",
+      backgroundColor: "#FBCA03",
       zIndex: "1",
     },
     name: () => (
