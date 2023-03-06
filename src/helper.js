@@ -11,8 +11,29 @@ import thorImg from "./imgs/thor.png";
 const characters = [
   {
     styles: {
-      backgroundColor: "#357250",
+      backgroundColor: "#94d2dd",
       zIndex: "9",
+    },
+    name: () => (
+      <>
+        The
+        <br />
+        Captain America
+      </>
+    ),
+    alt: "Captain America",
+    years: () => (
+      <>
+        2011 -<br />
+        2019
+      </>
+    ),
+    imgSrc: captainAmericaImg,
+  },
+  {
+    styles: {
+      backgroundColor: "#357250",
+      zIndex: "8",
     },
     name: () => (
       <>
@@ -32,8 +53,8 @@ const characters = [
   },
   {
     styles: {
-      backgroundColor: "#F44746",
-      zIndex: "8",
+      backgroundColor: "#961414",
+      zIndex: "7",
     },
     name: () => (
       <>
@@ -54,7 +75,7 @@ const characters = [
   {
     styles: {
       backgroundColor: "#3D5F7B",
-      zIndex: "7",
+      zIndex: "6",
     },
     name: () => (
       <>
@@ -72,30 +93,10 @@ const characters = [
     ),
     imgSrc: thorImg,
   },
+
   {
     styles: {
-      backgroundColor: "#23A4D1",
-      zIndex: "6",
-    },
-    name: () => (
-      <>
-        The
-        <br />
-        Captain America
-      </>
-    ),
-    alt: "Captain America",
-    years: () => (
-      <>
-        2011 -<br />
-        2019
-      </>
-    ),
-    imgSrc: captainAmericaImg,
-  },
-  {
-    styles: {
-      backgroundColor: "#FF5050",
+      backgroundColor: "#4D4F49",
       zIndex: "5",
     },
     name: () => (
