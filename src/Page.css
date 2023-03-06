@@ -49,6 +49,6 @@
   color: #ffffe3;
 }
 .hide {
-  transform: translateY(-1000px) rotateY(50deg);
+  transform: translateY(-1000px) rotateX(50deg);
   pointer-events: none;
 }
