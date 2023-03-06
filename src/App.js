@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div className="App">
       {characters.map((c, i) => (
-        <Page {...c} key={i} />
+        <Page {...c} key={i + 1} index={i + 1} />
       ))}
     </div>
   );
