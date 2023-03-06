@@ -1,10 +1,11 @@
 import characters from "./helper";
+import NavButton from "./NavButton";
 
 const Nav = () => {
   return (
     <div className="Nav">
       {characters.map((c, i) => (
-        <button key={i}>Nav Button</button>
+        <NavButton key={i} index={i} />
       ))}
     </div>
   );
