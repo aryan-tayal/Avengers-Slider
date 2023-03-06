@@ -1,6 +1,8 @@
 import characters from "./helper";
 import NavButton from "./NavButton";
 
+import "./Nav.css";
+
 const Nav = ({ changePage, currentPage }) => {
   return (
     <div className="Nav">
