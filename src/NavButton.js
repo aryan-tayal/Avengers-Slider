@@ -1,3 +1,7 @@
-const NavButton = ({ index }) => <button className="NavButton">{index}</button>;
+const NavButton = ({ index, handleClick, active }) => (
+  <button className="NavButton" onClick={handleClick}>
+    {index}{active && "Current"}
+  </button>
+);
 
 export default NavButton;

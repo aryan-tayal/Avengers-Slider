@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import characters from "./helper";
 
@@ -6,11 +6,12 @@ import Nav from "./Nav";
 import Page from "./Page";
 
 const App = () => {
+  const [pageDisplayed, setPageDisplayed] = useState(0);
   return (
     <div className="App">
-      <Nav />
+      <Nav currentPage={pageDisplayed} changePage={setPageDisplayed} />
       {characters.map((c, i) => (
-        <Page {...c} key={i + 1} index={i + 1} />
+        <Page {...c} key={i} index={i} hide={pageDisplayed > i} />
       ))}
     </div>
   );

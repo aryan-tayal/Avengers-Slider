@@ -1,5 +1,5 @@
 .Page {
-  position: relative;
+  position: fixed;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -46,4 +46,8 @@
 .Page-bottom {
   line-height: 20px;
   color: #ffffe3;
+}
+.hide {
+  opacity: 0;
+  pointer-events: none;
 }
