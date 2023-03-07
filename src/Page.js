@@ -1,6 +1,6 @@
 import React from "react";
 import "./Page.css";
-import avengersLogo from "./imgs/avengers-logo.png";
+import avengersLogo from "./imgs/avengers-logo.webp";
 
 const Page = ({ imgSrc, name, years, styles, alt, index, hide }) => {
   const padToOne = (n) => (n <= 9 ? `0${n}` : n);
