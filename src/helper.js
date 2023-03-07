@@ -1,12 +1,12 @@
-import antmanImg from "./imgs/antman.png";
-import blackwidowImg from "./imgs/black-widow.png";
-import captainAmericaImg from "./imgs/captain-america.png";
-import deadpoolImg from "./imgs/deadpool.png";
-import doctorStrangeImg from "./imgs/doctor-strange.png";
-import ironManImg from "./imgs/ironman.png";
-import spidermanImg from "./imgs/spiderman.png";
-import starLordImg from "./imgs/starlord.png";
-import thorImg from "./imgs/thor.png";
+import antmanImg from "./imgs/antman.webp";
+import blackwidowImg from "./imgs/black-widow.webp";
+import captainAmericaImg from "./imgs/captain-america.webp";
+import deadpoolImg from "./imgs/deadpool.webp";
+import doctorStrangeImg from "./imgs/doctor-strange.webp";
+import ironManImg from "./imgs/ironman.webp";
+import spidermanImg from "./imgs/spiderman.webp";
+import starLordImg from "./imgs/starlord.webp";
+import thorImg from "./imgs/thor.webp";
 
 const characters = [
   {
